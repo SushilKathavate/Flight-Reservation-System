@@ -16,7 +16,7 @@ const BookedFlight = () => {
 
   const fetchBookings = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/booking/readAllBooking");
+      const response = await axios.get("http://localhost:9082/booking/readAllBooking");
       setBookings(response.data);
     } catch (error) {
       console.error("Error fetching bookings", error);
@@ -25,7 +25,7 @@ const BookedFlight = () => {
 
   const createBooking = async () => {
     try {
-      await axios.post("http://localhost:8080/booking/createBooking", newBooking);
+      await axios.post("http://localhost:9082/booking/createBooking", newBooking);
       fetchBookings();
       setNewBooking({ bookingDate: "", noOfPassengers: "" });
     } catch (error) {
@@ -35,7 +35,7 @@ const BookedFlight = () => {
 
   const deleteBooking = async (id) => {
     try {
-      await axios.delete(`http:/localhost:8080/booking/deleteBooking/${id}`);
+      await axios.delete(`http:/localhost:9082/booking/deleteBooking/${id}`);
       fetchBookings();
     } catch (error) {
       console.error("Error deleting booking", error);

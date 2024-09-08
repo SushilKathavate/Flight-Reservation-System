@@ -26,13 +26,13 @@ const ScheduledFlight = () => {
     }, []);
 
     const fetchScheduledFlights = async () => {
-        const response = await fetch('http://localhost:8080/scheduledFlight/viewAll');
+        const response = await fetch('http://localhost:9082/scheduledFlight/viewAll');
         const data = await response.json();
         setScheduledFlights(data);
     };
 
     const addScheduledFlight = async () => {
-        await fetch('http://localhost:8080/scheduledFlight/add', {
+        await fetch('http://localhost:9082/scheduledFlight/add', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newScheduledFlight)
@@ -42,7 +42,7 @@ const ScheduledFlight = () => {
     };
 
     const updateScheduledFlight = async () => {
-        await fetch('http://localhost:8080/scheduledFlight/modify', {
+        await fetch('http://localhost:9082/scheduledFlight/modify', {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editScheduledFlight)
@@ -52,7 +52,7 @@ const ScheduledFlight = () => {
     };
 
     const deleteScheduledFlight = async (scheduleFlightId) => {
-        await fetch(`http://localhost:8080/scheduledFlight/delete/${scheduleFlightId}, {
+        await fetch(`http://localhost:9082/scheduledFlight/delete/${scheduleFlightId}, {
             method: 'DELETE'
         }`);
         fetchScheduledFlights();

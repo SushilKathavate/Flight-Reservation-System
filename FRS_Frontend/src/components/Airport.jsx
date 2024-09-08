@@ -12,13 +12,13 @@ const AirportComponent = () => {
     }, []);
 
     const fetchAirports = async () => {
-        const response = await fetch('http://localhost:8080/airport/allAirport');
+        const response = await fetch('http://localhost:9082/airport/allAirport');
         const data = await response.json();
         setAirports(data);
     };
 
     const addAirport = async () => {
-        await fetch('http://localhost:8080/airport/addAirport', {
+        await fetch('http://localhost:9082/airport/addAirport', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newAirport)
@@ -28,7 +28,7 @@ const AirportComponent = () => {
     };
 
     const updateAirport = async () => {
-        await fetch('http://localhost:8080/airport/updateAirport', {
+        await fetch('http://localhost:9082/airport/updateAirport', {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editAirport)
@@ -38,7 +38,7 @@ const AirportComponent = () => {
     };
 
     const deleteAirport = async (airportCode) => {
-        await fetch(`http://localhost:8080/airport/deleteAirport/${airportCode}, {
+        await fetch(`http://localhost:9082/airport/deleteAirport/${airportCode}, {
             method: 'DELETE'
         }`);
         fetchAirports();

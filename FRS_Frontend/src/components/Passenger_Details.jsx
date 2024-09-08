@@ -18,13 +18,13 @@ const Passenger_Details = () => {
     }, []);
 
     const fetchPassengers = async () => {
-        const response = await fetch('http://localhost:8080/passenger/allPassengers');
+        const response = await fetch('http://localhost:9082/passenger/allPassengers');
         const data = await response.json();
         setPassengers(data);
     };
 
     const addPassenger = async () => {
-        await fetch('http://localhost:8080/passenger/addPassenger', {
+        await fetch('http://localhost:9082/passenger/addPassenger', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newPassenger)
@@ -40,7 +40,7 @@ const Passenger_Details = () => {
     };
 
     const updatePassenger = async () => {
-        await fetch('http://localhost:8080/passenger/updatePassenger', {
+        await fetch('http://localhost:9082/passenger/updatePassenger', {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editPassenger)
@@ -50,7 +50,7 @@ const Passenger_Details = () => {
     };
 
     const deletePassenger = async (pnrNumber) => {
-        await fetch(`http://localhost:8080/passenger/deletePassenger/${pnrNumber}, {
+        await fetch(`http://localhost:9082/passenger/deletePassenger/${pnrNumber}, {
             method: 'DELETE'
         }`);
         fetchPassengers();

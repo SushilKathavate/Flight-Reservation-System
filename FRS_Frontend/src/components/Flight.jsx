@@ -12,13 +12,13 @@ const Flight = () => {
     }, []);
 
     const fetchFlights = async () => {
-        const response = await fetch('http://localhost:8080/flight/allFlight');
+        const response = await fetch('http://localhost:9082/flight/allFlight');
         const data = await response.json();
         setFlights(data);
     };
 
     const addFlight = async () => {
-        await fetch('http://localhost:8080/flight/addFlight', {
+        await fetch('http://localhost:9082/flight/addFlight', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newFlight)
@@ -28,7 +28,7 @@ const Flight = () => {
     };
 
     const updateFlight = async () => {
-        await fetch('http://localhost:8080/flight/updateFlight', {
+        await fetch('http://localhost:9082/flight/updateFlight', {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(editFlight)
@@ -38,7 +38,7 @@ const Flight = () => {
     };
 
     const deleteFlight = async (flightNo) => {
-        await fetch(`http://localhost:8080/flight/deleteFlight/${flightNo}, {
+        await fetch(`http://localhost:9082/flight/deleteFlight/${flightNo}, {
             method: 'DELETE'
         }`);
         fetchFlights();
