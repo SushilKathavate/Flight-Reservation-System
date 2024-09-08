@@ -1,0 +1,73 @@
+.flights-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.flight-form input,
+.flight-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.flight-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.flight-form button:hover {
+  background-color: #0056b3;
+}
+
+.flights-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flight-item {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.flight-item h3 {
+  margin-top: 0;
+}
+
+.flight-item p {
+  margin: 5px 0;
+}
+
+.flight-item button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.flight-item button:hover {
+  background-color: #c9302c;
+}

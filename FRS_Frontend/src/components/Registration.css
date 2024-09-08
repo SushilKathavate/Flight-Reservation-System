@@ -1,0 +1,84 @@
+/* Center the registration form on the page */
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../assets/RegistrationImage2.jpeg'); /* Use the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.registration-container {
+    max-width: 400px;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .registration-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Style the form and its elements */
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .registration-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-form input:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
+  
+  /* Style the submit button */
+  .registration-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #357ae8;
+  }
+  
+  /* Style the login link */
+  .login-link {
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,41 @@
+﻿@page
+@model FlightManagement.Pages.Faress.DetailListModel
+<h1>Flight Details</h1>
+
+<div>
+    <h2>@Model.Flight.FlightNumber</h2>
+    <p>Destination: @Model.Flight.Destination</p>
+    <p>Origin: @Model.Flight.Origin</p>
+    <p>Departure Time: @Model.Flight.DepartureTime</p>
+    <p>Arrival Time: @Model.Flight.ArrivalTime</p>
+    <p>Capacity: @Model.Flight.Capacity</p>
+</div>
+
+<h2>Fares</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Fares != null && Model.Fares.Any())
+        {
+            foreach (var fare in Model.Fares)
+            {
+                <tr>
+                    <td>@fare.Type</td>
+                    <td>@fare.Price</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="2">No fares available</td>
+            </tr>
+        }
+    </tbody>
+</table>

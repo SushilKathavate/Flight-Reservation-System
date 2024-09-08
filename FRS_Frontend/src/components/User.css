@@ -1,0 +1,78 @@
+.user-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.user-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-form, .user-update-form, .user-search {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.user-form h2, .user-update-form h2, .user-search h2 {
+    margin-bottom: 15px;
+}
+
+.user-form input, .user-update-form input, .user-search input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-form button, .user-update-form button, .user-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.user-form button:hover, .user-update-form button:hover, .user-search button:hover {
+    background-color: #0056b3;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th,
+.user-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list th {
+    background-color: #f2f2f2;
+}
+
+.user-list tr:hover {
+    background-color: #f5f5f5;
+}
+
+.user-list button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-list button:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,15 @@
+C:\Users\rushi\source\repos\FlightManagement\model\bin\Debug\net8.0\model.deps.json
+C:\Users\rushi\source\repos\FlightManagement\model\bin\Debug\net8.0\model.runtimeconfig.json
+C:\Users\rushi\source\repos\FlightManagement\model\bin\Debug\net8.0\model.dll
+C:\Users\rushi\source\repos\FlightManagement\model\bin\Debug\net8.0\model.pdb
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.csproj.AssemblyReference.cache
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.AssemblyInfoInputs.cache
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.AssemblyInfo.cs
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.csproj.CoreCompileInputs.cache
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.sourcelink.json
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.dll
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\refint\model.dll
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.pdb
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\model.genruntimeconfig.cache
+C:\Users\rushi\source\repos\FlightManagement\model\obj\Debug\net8.0\ref\model.dll

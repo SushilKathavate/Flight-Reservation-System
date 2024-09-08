@@ -1,0 +1,49 @@
+/* UserHeader.css */
+
+.user-header {
+    background-color: #004080; /* Dark blue background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .user-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #0059b3; /* Lighter blue on hover */
+    border-radius: 5px;
+  }
+  
+  .logout-button {
+    background-color: #e60000; /* Red background */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  

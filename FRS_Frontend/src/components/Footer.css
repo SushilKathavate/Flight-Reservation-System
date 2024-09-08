@@ -1,0 +1,23 @@
+.footer {
+    background-color: #f7f4ed; /* Equivalent to bg-gray-800 */
+    color: black;
+    text-align: center;
+    padding: 16px; /* Equivalent to p-4 */
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; /* Equivalent to space-x-4 */
+  }
+  
+  .footer-text {
+    font-size: 18px; /* Equivalent to text-lg */
+  }
+  
+  .footer-separator {
+    margin: 0 8px;
+  }

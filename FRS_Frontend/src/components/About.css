@@ -1,0 +1,63 @@
+/* Container for the About section */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+   
+  }
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  /* Image container */
+  .about-image-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Text container */
+  .about-text-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* About label style */
+  .about-label {
+    color: gray;
+    border-bottom: 2px solid #4f46e5; /* Indigo color */
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* About heading style */
+  .about-heading {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Highlighted text style */
+  .highlight-text {
+    color: #4f46e5; /* Indigo color */
+  }
+  
+  /* Description text style */
+  .about-description {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .footer {
+    margin-top: auto; /* Ensures the footer sticks to the bottom */
+  }

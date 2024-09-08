@@ -1,0 +1,193 @@
+/* 
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url('../assets/LoginImage2.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+   
+  }
+  
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+  }
+  
+  
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+ 
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .login-button:hover {
+    background-color: #357ae8;
+  }
+  
+  
+  .register-link {
+    margin-top: 1.5rem;
+  }
+  
+  .register-link a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    margin-top: auto;
+    margin-bottom: 1px;
+  }  */
+
+  /* Container with full screen height and background image */
+/* Container with full screen height and background image */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../assets/LoginImage2.jpeg'); /* Use the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Content container with side-by-side layout and equal height */
+.login-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; /* Ensures that both sections stretch to the same height */
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Shared styles for both login boxes */
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Title of the login form */
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  margin-top: -3.5rem;
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #4285f4;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.login-button:hover {
+  background-color: #357ae8;
+}
+
+/* Registration link styling */
+.register-link {
+  margin-top: 1.5rem;
+}
+
+.register-link a {
+  color: #4285f4;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Footer alignment */
+.footer {
+  margin-top: auto;
+  margin-bottom: 1px;
+}
+

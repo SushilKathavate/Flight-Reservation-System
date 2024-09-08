@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080;
+    width: 100%;
+  }
+  
+  .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 20px;
+    color:white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 50px; /* Adjust the gap between links */
+  }
+  
+  /* Basic link styling */
+  .nav-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1em; /* Adjust the font size */
+    transition: color 0.3s ease;
+    margin-left: -70px;
+    padding: 20px;
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    color: gray; /* Change text color on hover */
+  }
+  

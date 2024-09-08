@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\controllers\\farecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\controllers\\farecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\migrations\\20240818154317_flights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\migrations\\20240818154317_flights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\flightmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\flightmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\models\\fare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\models\\fare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|c:\\users\\91775\\downloads\\flightreservationsystem\\adminfrs_dotnetbackend\\flightmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{260563AC-9B34-43F2-A5DB-3DB483F9B49C}|FlightManagementAPI\\FlightManagementAPI.csproj|solutionrelative:flightmanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240818154317_flights.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Migrations\\20240818154317_flights.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Migrations\\20240818154317_flights.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Migrations\\20240818154317_flights.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Migrations\\20240818154317_flights.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:43:17.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\appsettings.json",
+              "RelativeToolTip": "FlightManagementAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-18T15:25:01.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:24:22.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FareController.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\FareController.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Controllers\\FareController.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\FareController.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Controllers\\FareController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:17:24.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Program.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:04:54.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\FlightController.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Controllers\\FlightController.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\FlightController.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Controllers\\FlightController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:57:59.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:13:51.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Fare.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\Fare.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Models\\Fare.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\Fare.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Models\\Fare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:16:50.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\User.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:01:00.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\Models\\Flight.cs",
+              "RelativeToolTip": "FlightManagementAPI\\Models\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:59:54.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FlightManagementAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\FlightManagementAPI.csproj",
+              "RelativeDocumentMoniker": "FlightManagementAPI\\FlightManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\91775\\Downloads\\FlightReservationSystem\\AdminFRS_DotnetBackend\\FlightManagementAPI\\FlightManagementAPI.csproj",
+              "RelativeToolTip": "FlightManagementAPI\\FlightManagementAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T14:59:21.485Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

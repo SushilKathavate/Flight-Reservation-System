@@ -1,0 +1,77 @@
+.airport-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.airport-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.airport-form {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.airport-form h2 {
+  margin-bottom: 15px;
+}
+
+.airport-form input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.airport-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.airport-form button:hover {
+  background-color: #218838;
+}
+
+.airport-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.airport-list th,
+.airport-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.airport-list th {
+  background-color: #f2f2f2;
+}
+
+.airport-list tr:hover {
+  background-color: #f5f5f5;
+}
+
+.airport-list button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.airport-list button:hover {
+  opacity: 0.8;
+}

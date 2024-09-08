@@ -1,0 +1,70 @@
+.booking-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.create-booking {
+  margin-bottom: 20px;
+}
+
+.create-booking input {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-booking button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-booking button:hover {
+  background-color: #218838;
+}
+
+.booking-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.booking-list li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.booking-list span {
+  margin-right: 10px;
+}
+
+.booking-list button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-list button:hover {
+  background-color: #c82333;
+}

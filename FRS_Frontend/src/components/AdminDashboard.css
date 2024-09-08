@@ -1,0 +1,18 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make sure the container takes full viewport height */
+}
+
+.dashboard-image-container {
+  flex-grow: 1; /* Ensure the image container takes up all remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container */
+}
