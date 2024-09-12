@@ -18,13 +18,13 @@ const Ticket = () => {
     }, []);
 
     const fetchTickets = async () => {
-        const response = await fetch('http://localhost:9082/ticket/viewAll');
+        const response = await fetch('http://localhost:8080/ticket/viewAll');
         const data = await response.json();
         setTickets(data);
     };
 
     const addTicket = async () => {
-        await fetch('http://localhost:9082/ticket/add', {
+        await fetch('http://localhost:8080/ticket/add', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newTicket)

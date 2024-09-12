@@ -20,13 +20,13 @@ const User = () => {
     }, []);
 
     const fetchUsers = async () => {
-        const response = await fetch('http://localhost:9082/user/readAllUsers');
+        const response = await fetch('http://localhost:8080/user/readAllUsers');
         const data = await response.json();
         setUsers(data);
     };
 
     const addUser = async () => {
-        await fetch('http://localhost:9082/user/createUser', {
+        await fetch('http://localhost:8080/user/createUser', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newUser)
@@ -36,7 +36,7 @@ const User = () => {
     };
 
     const updateUser = async () => {
-        await fetch('http://localhost:9082/user/updateUser', {
+        await fetch('http://localhost:8080/user/updateUser', {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(selectedUser)
@@ -46,14 +46,14 @@ const User = () => {
     };
 
     const deleteUser = async (id) => {
-        await fetch(`http://localhost:9082/user/deleteUser/${id}, {
+        await fetch(`http://localhost:8080/user/deleteUser/${id}, {
             method: 'DELETE'
         }`);
         fetchUsers();
     };
 
     const searchUserById = async () => {
-        const response = await fetch(`http://localhost:9082/user/searchUser/${searchId}`);
+        const response = await fetch(`http://localhost:8080/user/searchUser/${searchId}`);
         const data = await response.json();
         setSelectedUser(data);
     };
