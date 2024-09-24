@@ -13,7 +13,7 @@ namespace FlightManagementAPI.Data
         // Define DbSet properties for your entities
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Fare> Fares { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<Admin> Admin { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

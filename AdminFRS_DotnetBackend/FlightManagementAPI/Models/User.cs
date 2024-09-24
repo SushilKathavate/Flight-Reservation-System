@@ -1,6 +1,6 @@
 ﻿namespace FlightManagementAPI.Models
 {
-    public class User
+    public class Admin
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
